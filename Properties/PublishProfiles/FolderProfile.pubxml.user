@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Li\Desktop\新建文件夹</_PublishTargetUrl>
+    <History>True|2021-04-12T23:27:18.4073409Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Background/Login.aspx">
+      <publishTime>04/07/2021 19:19:36</publishTime>
+    </File>
+    <File Include="Background/NAV.aspx">
+      <publishTime>04/10/2021 17:06:55</publishTime>
+    </File>
+    <File Include="Background/setCOVID.aspx">
+      <publishTime>04/10/2021 15:56:11</publishTime>
+    </File>
+    <File Include="Background/setFT.aspx">
+      <publishTime>04/13/2021 06:54:38</publishTime>
+    </File>
+    <File Include="Background/setProduct.aspx">
+      <publishTime>04/10/2021 15:58:09</publishTime>
+    </File>
+    <File Include="Background/setUser.aspx">
+      <publishTime>04/13/2021 07:27:13</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>01/31/2019 19:53:56</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>02/16/2020 13:04:38</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.pdb">
+      <publishTime>02/16/2020 08:02:46</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.dll">
+      <publishTime>07/03/2019 22:59:30</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.Streams.dll">
+      <publishTime>07/03/2019 22:59:32</publishTime>
+    </File>
+    <File Include="bin/K4os.Hash.xxHash.dll">
+      <publishTime>07/03/2019 20:39:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>12/09/2020 00:51:10</publishTime>
+    </File>
+    <File Include="bin/Renci.SshNet.dll">
+      <publishTime>12/31/2020 13:12:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 10:05:18</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>04/17/2019 16:24:34</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>07/19/2017 10:01:36</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/18/2018 19:38:10</publishTime>
+    </File>
+    <File Include="bin/Ubiety.Dns.Core.dll">
+      <publishTime>12/09/2020 00:49:56</publishTime>
+    </File>
+    <File Include="bin/Zstandard.Net.dll">
+      <publishTime>12/09/2020 00:49:56</publishTime>
+    </File>
+    <File Include="bin/个性化旅游网站.dll">
+      <publishTime>04/13/2021 07:27:15</publishTime>
+    </File>
+    <File Include="bin/个性化旅游网站.pdb">
+      <publishTime>04/13/2021 07:27:15</publishTime>
+    </File>
+    <File Include="COVID.aspx">
+      <publishTime>04/12/2021 21:38:03</publishTime>
+    </File>
+    <File Include="COVID/index.html">
+      <publishTime>04/10/2021 02:47:52</publishTime>
+    </File>
+    <File Include="COVID/js/jquery.min.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/china.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/anhui.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/aomen.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/beijing.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/chongqing.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/fujian.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/gansu.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/guangdong.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/guangxi.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/guizhou.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/hainan.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/hebei.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/heilongjiang.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/henan.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/hubei.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/hunan.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/jiangsu.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/jiangxi.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/jilin.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/liaoning.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/neimenggu.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/ningxia.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/qinghai.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/shandong.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/shanghai.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/shanxi.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/shanxi1.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/sichuan.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/taiwan.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/tianjin.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/xianggang.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/xinjiang.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/xizang.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/yunnan.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="COVID/js/map/province/zhejiang.js">
+      <publishTime>04/09/2021 02:27:07</publishTime>
+    </File>
+    <File Include="FlyBuy.aspx">
+      <publishTime>04/13/2021 02:38:15</publishTime>
+    </File>
+    <File Include="FlyTicket.aspx">
+      <publishTime>04/13/2021 02:25:14</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>04/13/2021 06:19:49</publishTime>
+    </File>
+    <File Include="image/product/beijing/beijing.jpeg">
+      <publishTime>04/10/2021 07:33:25</publishTime>
+    </File>
+    <File Include="image/product/dali/dali.jpeg">
+      <publishTime>04/10/2021 06:44:13</publishTime>
+    </File>
+    <File Include="image/product/harbin/harbin.jpeg">
+      <publishTime>04/10/2021 06:53:41</publishTime>
+    </File>
+    <File Include="image/product/xian/xian.jpeg">
+      <publishTime>04/10/2021 07:46:21</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微1.png">
+      <publishTime>04/13/2021 06:14:09</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微2.png">
+      <publishTime>04/13/2021 06:14:09</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微3.png">
+      <publishTime>04/13/2021 06:14:09</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微4.jpg">
+      <publishTime>04/13/2021 06:14:31</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微5.jpg">
+      <publishTime>04/13/2021 06:14:31</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微6.jpg">
+      <publishTime>04/13/2021 06:14:31</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/微7.jpg">
+      <publishTime>04/13/2021 06:14:31</publishTime>
+    </File>
+    <File Include="image/TravelNote/1/游记1细雨蒙蒙 洛阳三日.png">
+      <publishTime>04/13/2021 06:14:39</publishTime>
+    </File>
+    <File Include="image/旅游产品介绍.png">
+      <publishTime>04/07/2021 01:37:12</publishTime>
+    </File>
+    <File Include="image/旅游全攻略.png">
+      <publishTime>04/07/2021 00:21:58</publishTime>
+    </File>
+    <File Include="image/旅游游记.png">
+      <publishTime>04/12/2021 20:44:21</publishTime>
+    </File>
+    <File Include="image/箭头.png">
+      <publishTime>04/13/2021 01:04:30</publishTime>
+    </File>
+    <File Include="image/自驾游攻略指南.png">
+      <publishTime>04/07/2021 00:22:01</publishTime>
+    </File>
+    <File Include="image/购物车.png">
+      <publishTime>04/10/2021 08:45:18</publishTime>
+    </File>
+    <File Include="image/飞机.png">
+      <publishTime>04/13/2021 01:04:30</publishTime>
+    </File>
+    <File Include="image/首页展示.png">
+      <publishTime>04/07/2021 00:28:18</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>04/10/2021 03:46:08</publishTime>
+    </File>
+    <File Include="Message.aspx">
+      <publishTime>04/13/2021 03:42:01</publishTime>
+    </File>
+    <File Include="Product.aspx">
+      <publishTime>04/13/2021 07:10:49</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>04/10/2021 05:32:11</publishTime>
+    </File>
+    <File Include="ShoppingList.aspx">
+      <publishTime>04/13/2021 07:05:51</publishTime>
+    </File>
+    <File Include="TravalNote.aspx">
+      <publishTime>04/13/2021 06:16:33</publishTime>
+    </File>
+    <File Include="TravelNoteShow.aspx">
+      <publishTime>04/12/2021 21:29:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/13/2021 07:27:16</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,398 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F1693DC-9B43-4FF8-906A-06413B48A9B1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>个性化旅游网站</RootNamespace>
+    <AssemblyName>个性化旅游网站</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.11.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.11.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.1.11\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.1.11\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.23\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2020.0.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>packages\SSH.NET.2020.0.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.23\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.8.0.23\lib\net452\Zstandard.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Background\Login.aspx" />
+    <Content Include="Background\NAV.aspx" />
+    <Content Include="Background\Respond.aspx" />
+    <Content Include="Background\setAdmin.aspx" />
+    <Content Include="Background\setCOVID.aspx" />
+    <Content Include="Background\setFT.aspx" />
+    <Content Include="Background\setMessage.aspx" />
+    <Content Include="Background\setProduct.aspx" />
+    <Content Include="Background\setUser.aspx" />
+    <Content Include="COVID.aspx" />
+    <Content Include="COVID\index.html" />
+    <Content Include="COVID\js\jquery.min.js" />
+    <Content Include="COVID\js\map\china.js" />
+    <Content Include="COVID\js\map\province\anhui.js" />
+    <Content Include="COVID\js\map\province\aomen.js" />
+    <Content Include="COVID\js\map\province\beijing.js" />
+    <Content Include="COVID\js\map\province\chongqing.js" />
+    <Content Include="COVID\js\map\province\fujian.js" />
+    <Content Include="COVID\js\map\province\gansu.js" />
+    <Content Include="COVID\js\map\province\guangdong.js" />
+    <Content Include="COVID\js\map\province\guangxi.js" />
+    <Content Include="COVID\js\map\province\guizhou.js" />
+    <Content Include="COVID\js\map\province\hainan.js" />
+    <Content Include="COVID\js\map\province\hebei.js" />
+    <Content Include="COVID\js\map\province\heilongjiang.js" />
+    <Content Include="COVID\js\map\province\henan.js" />
+    <Content Include="COVID\js\map\province\hubei.js" />
+    <Content Include="COVID\js\map\province\hunan.js" />
+    <Content Include="COVID\js\map\province\jiangsu.js" />
+    <Content Include="COVID\js\map\province\jiangxi.js" />
+    <Content Include="COVID\js\map\province\jilin.js" />
+    <Content Include="COVID\js\map\province\liaoning.js" />
+    <Content Include="COVID\js\map\province\neimenggu.js" />
+    <Content Include="COVID\js\map\province\ningxia.js" />
+    <Content Include="COVID\js\map\province\qinghai.js" />
+    <Content Include="COVID\js\map\province\shandong.js" />
+    <Content Include="COVID\js\map\province\shanghai.js" />
+    <Content Include="COVID\js\map\province\shanxi.js" />
+    <Content Include="COVID\js\map\province\shanxi1.js" />
+    <Content Include="COVID\js\map\province\sichuan.js" />
+    <Content Include="COVID\js\map\province\taiwan.js" />
+    <Content Include="COVID\js\map\province\tianjin.js" />
+    <Content Include="COVID\js\map\province\xianggang.js" />
+    <Content Include="COVID\js\map\province\xinjiang.js" />
+    <Content Include="COVID\js\map\province\xizang.js" />
+    <Content Include="COVID\js\map\province\yunnan.js" />
+    <Content Include="COVID\js\map\province\zhejiang.js" />
+    <Content Include="FlyBuy.aspx" />
+    <Content Include="FlyTicket.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="image\product\beijing\beijing.jpeg" />
+    <Content Include="image\product\dali\dali.jpeg" />
+    <Content Include="image\product\harbin\harbin.jpeg" />
+    <Content Include="image\product\xian\xian.jpeg" />
+    <Content Include="image\TravelNote\1\微1.png" />
+    <Content Include="image\TravelNote\1\微2.png" />
+    <Content Include="image\TravelNote\1\微3.png" />
+    <Content Include="image\TravelNote\1\微4.jpg" />
+    <Content Include="image\TravelNote\1\微5.jpg" />
+    <Content Include="image\TravelNote\1\微6.jpg" />
+    <Content Include="image\TravelNote\1\微7.jpg" />
+    <Content Include="image\TravelNote\1\游记1细雨蒙蒙 洛阳三日.png" />
+    <Content Include="image\旅游产品介绍.png" />
+    <Content Include="image\旅游全攻略.png" />
+    <Content Include="image\旅游游记.png" />
+    <Content Include="image\箭头.png" />
+    <Content Include="image\自驾游攻略指南.png" />
+    <Content Include="image\购物车.png" />
+    <Content Include="image\飞机.png" />
+    <Content Include="image\首页展示.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Message.aspx" />
+    <Content Include="Product.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="ShopListShow.aspx" />
+    <Content Include="ShoppingList.aspx" />
+    <Content Include="TravalNote.aspx" />
+    <Content Include="TravelNoteShow.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Background\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\NAV.aspx.cs">
+      <DependentUpon>NAV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\NAV.aspx.designer.cs">
+      <DependentUpon>NAV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\Respond.aspx.cs">
+      <DependentUpon>Respond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\Respond.aspx.designer.cs">
+      <DependentUpon>Respond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\setAdmin.aspx.cs">
+      <DependentUpon>setAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\setAdmin.aspx.designer.cs">
+      <DependentUpon>setAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\setCOVID.aspx.cs">
+      <DependentUpon>setCOVID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\setCOVID.aspx.designer.cs">
+      <DependentUpon>setCOVID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\setFT.aspx.cs">
+      <DependentUpon>setFT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\setFT.aspx.designer.cs">
+      <DependentUpon>setFT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\setMessage.aspx.cs">
+      <DependentUpon>setMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\setMessage.aspx.designer.cs">
+      <DependentUpon>setMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\setProduct.aspx.cs">
+      <DependentUpon>setProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\setProduct.aspx.designer.cs">
+      <DependentUpon>setProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Background\setUser.aspx.cs">
+      <DependentUpon>setUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Background\setUser.aspx.designer.cs">
+      <DependentUpon>setUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="COVID.aspx.cs">
+      <DependentUpon>COVID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="COVID.aspx.designer.cs">
+      <DependentUpon>COVID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlyBuy.aspx.cs">
+      <DependentUpon>FlyBuy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlyBuy.aspx.designer.cs">
+      <DependentUpon>FlyBuy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlyTicket.aspx.cs">
+      <DependentUpon>FlyTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlyTicket.aspx.designer.cs">
+      <DependentUpon>FlyTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Message.aspx.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Message.aspx.designer.cs">
+      <DependentUpon>Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopListShow.aspx.cs">
+      <DependentUpon>ShopListShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopListShow.aspx.designer.cs">
+      <DependentUpon>ShopListShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingList.aspx.cs">
+      <DependentUpon>ShoppingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingList.aspx.designer.cs">
+      <DependentUpon>ShoppingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TravalNote.aspx.cs">
+      <DependentUpon>TravalNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TravalNote.aspx.designer.cs">
+      <DependentUpon>TravalNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TravelNoteShow.aspx.cs">
+      <DependentUpon>TravelNoteShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TravelNoteShow.aspx.designer.cs">
+      <DependentUpon>TravelNoteShow.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="image\custom\" />
+    <Folder Include="image\product\dalian\" />
+    <Folder Include="image\TravelNote\2\" />
+    <Folder Include="image\TravelNote\3\" />
+    <Folder Include="image\TravelNote\4\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50620</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50620/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
